@@ -11,17 +11,12 @@ KPHP — язык программирования, на котором рабо
 
 Движки необходимые для работы скрипта:
 ```
-pmemcached
-
-text
-
-friends
-
-hints
-
-bayes
-
-queue
+pmemcached<br>
+text<br>
+friends<br>
+hints<br>
+bayes<br>
+queue<br>
 ```
 
 Так-же необходимо создать базу данных boxed_base с логином boxed и паролем password
