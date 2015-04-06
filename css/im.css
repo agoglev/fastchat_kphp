@@ -1,0 +1,72 @@
+/*
+	Author: Andrey Goglev
+	VK: https://vk.com/ru151
+*/
+
+.im_wrap{background: #fff;box-shadow: 0px 1px 3px #B3C7DF;border-radius: 0 0 3px 3px;}
+.im_chats{width: 260px;height: 300px;border-right: 2px solid #E9EBED;}
+.im_cont{width: 488px;height: 300px;position: relative;overflow: hidden;}
+
+.im_search{padding: 10px;}
+.im_search input{padding: 9px 10px;width: 100%;border:1px solid #F2F2F2;background: #F2F2F2;font-size: 12px;transition: background 200ms ease;border-radius: 2px;}
+.im_search input:focus{background: #fff;border: 1px solid #d9dbde;}
+.im_search input:focus::-webkit-input-placeholder{color: #999;}
+
+.chat_block{padding: 7px 10px;position: relative;}
+.chat_block:hover{background: #f2f6fa;cursor: pointer;}
+.chat_block img{border-radius: 25px;}
+.chat_block .cont{margin-left: 60px;}
+.chat_block .name{font-weight: bold;color:#45688E;font-size: 12px;margin-top: 8px;}
+.chat_block .msg{color: #777;font-size: 12px;margin-top: 6px;text-overflow: ellipsis;white-space: nowrap;overflow: hidden;width: 155px;height: 15px;}
+.chat_block.active{background: #6994B3;}
+.chat_block.active .name, .chat_block.active .msg{color: #fff;}
+.chat_block .typing{position: absolute;right: 10px;bottom: 10px;padding: 5px 5px 5px 4px;background: #edf1f5;border-radius: 2px;opacity: 0;transition: opacity 200ms ease;}
+.chat_block .new_cnt{position: absolute;bottom: 10px;right: 10px;font-weight: bold;padding: 5px;background: #edf1f5;border-radius: 2px;color: #607387;}
+.chat_block:hover .typing, .chat_block:hover .new_cnt{background: #E3E5E8;}
+.chat_block .new_cnt:empty{display: none !important;}
+.chat_block.active .new_cnt{background: rgba(255,255,255,0.2) !important;color: #fff;}
+.chat_block .online{position: absolute;bottom: 10px;left: 48px;height: 10px;width: 10px;background: #6994B3;border-radius: 9px;border: 2px solid #fff;}
+
+
+.im_no_sel,#im_preloader{position: absolute;text-align: center;width: 100%;top: 50%;margin-top: -20px;}
+.im_no_sel{font-size: 23px;color: #888;}
+#im_preloader{display: none;}
+#chat_view_bl{display: none;}
+
+#messages_bl{}
+#messages_nano{height: 100%;}
+
+.im_send_form{position: absolute;bottom: 0;left:0;width: 100%;padding: 10px;background: #E9EBED;box-sizing: border-box;}
+.im_send_form textarea{width: 350px;margin: 0 auto;display: block;max-height: 90px;resize:none;height: 50px;padding: 5px;border: 1px solid #D9DCDF;}
+.im_send_form .send_cont{width: 350px;margin: 10px auto 0;}
+
+.im_msg{margin-top: 5px;padding:0 59px;}
+.im_msg img{width:32px;height:32px;border-radius:2px;}
+.im_msg .cont{margin-left: 40px;}
+.im_msg .name{font-weight: bold;}
+.im_msg .msg{line-height: 160%;margin-top: 3px;-webkit-user-select: text;-moz-user-select: text;}
+.im_msg.read .msg_cont, .im_msg.read_my .msg_cont{background: #EDF1F5;}
+.im_msg.short{margin-top: 0px;}
+.im_msg.short .msg_ava{width: 32px;height: 10px;}
+.im_msg.short .msg_ava img{display: none;}
+.im_msg.short .name{display: none;}
+.im_msg.short .msg{margin-top: 0px;}
+.im_msg .msg_cont{padding:5px;}
+
+
+#im_typing, #im_offline{color: #777;padding: 5px 69px 10px;opacity: 0;transition: opacity 200ms ease;}
+#im_typing img{margin-right: 5px;}
+#im_offline{display: none;opacity: 1;}
+
+.im_send_inf{color:#777;margin-left: 10px;margin-top: 7px;}
+
+.new_msg_info{border-top:1px solid #ddd;text-align: center;margin-bottom: 8px;margin-top: 5px;}
+.new_msg_info .str{background: #fff;padding: 5px 10px;margin-top: -14px;display: inline-block;color: #777;}
+
+.search_res{font-weight: bold;padding: 10px;color: #45688E;cursor: pointer;}
+.search_res .fl_r{font-weight: normal;}
+.search_res:hover{background: #f2f6fa}
+
+.im_user_panel{background: #E9EBED;height: 44px;}
+.im_user_panel .name{font-size: 15px;font-weight: bold;color: #555;padding: 14px 8px 12px 13px;}
+#im_head_online{color: #666;margin-top: 16px;display: none;}

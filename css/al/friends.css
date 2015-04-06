@@ -1,0 +1,19 @@
+.friends_cnt{font-weight: bold;font-size: 12px;color: #45688E;padding: 15px;}
+.friends_search_form{margin-top: -14px;margin-left: -14px;width: 748px;border-bottom: 1px solid #E1E7ED;position: relative;}
+.friends_search_form input{border: 0px;width: 100%;padding: 14px;font-size: 12px;background: url(/img/se.png) no-repeat scroll 15px 14px;padding-left: 38px;}
+.friends_search_form .button{position: absolute;top: 6px;right: 10px;}
+
+.one_request{padding: 10px 0;}
+.one_request .name{font-weight: bold;font-size: 12px;}
+.one_request .cont{margin-left: 10px;margin-top: 2px;}
+.one_request .buttons{margin-top: 15px;}
+.one_request .buttons .inline{margin-left: 8px;}
+.one_request .online{color: #777;margin: 5px 0 -5px;font-size: 12px;}
+.one_request .online:empty{display: none;}
+
+.one_request .ac_buttons{color:#45688E;}
+.one_request .ac_buttons a{padding: 7px 10px;display: block;}
+.one_request .ac_buttons a:hover{background: #E1E7ED;text-decoration: none;}
+
+
+#friends_res{margin-top: 10px}
