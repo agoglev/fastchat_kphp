@@ -41,5 +41,5 @@ photo (varchar)
 Если все будет настроено верно то проблем не возникнет, демо больше нет.
 
 
-https://vk.com/kitphp
+https://vk.com/kitphp<br>
 http://fastchat.su/
