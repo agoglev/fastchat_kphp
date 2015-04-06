@@ -42,3 +42,4 @@ photo (varchar)
 
 
 https://vk.com/kitphp
+http://fastchat.su/
