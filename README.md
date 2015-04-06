@@ -10,7 +10,7 @@ KPHP — язык программирования, на котором рабо
 
 
 Движки необходимые для работы скрипта:
-
+```
 pmemcached
 
 text
@@ -22,11 +22,12 @@ hints
 bayes
 
 queue
+```
 
 Так-же необходимо создать базу данных boxed_base с логином boxed и паролем password
 
 В ней таблицу users с полями:
-
+```
 uid (int)
 
 email (varchar)
@@ -38,6 +39,7 @@ lname (varchar)
 password (varchar)
 
 photo (varchar)
+```
 
 Не забудьте закрыть доступ к mysql серверу из вне.
 
