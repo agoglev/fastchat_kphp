@@ -27,6 +27,7 @@ name (varchar)
 lname (varchar)
 password (varchar)
 photo (varchar)
+last_update (int)
 ```
 
 Не забудьте закрыть доступ к mysql серверу из вне.
