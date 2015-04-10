@@ -13,7 +13,7 @@ $im = new Memcache;
 $im->connect("localhost", IM_PORT);
 
 
-$time = $im->get('timestamp'.$uid);
+$time = $im->get('force_timestamp'.$uid);
 
 $user_secret = $im->get('secret'.$uid);
 if(!$user_secret){
