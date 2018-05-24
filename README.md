@@ -1,7 +1,7 @@
 # fastchat_kphp
 Автор: Андрей Гоглев
 
-VK: https://vk.com/ru151
+VK: https://vk.com/ga
 
 
 Чат написанный на KPHP.
